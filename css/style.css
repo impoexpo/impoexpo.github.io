@@ -67,7 +67,7 @@ Moz Selection
 
 
 :root {
-	--primary-color: #0057a0;
+	--primary-color: #1474bc;
 	--dark-color: #272B36;
 	--secondary-color: #666666;
 	--grey-color: #F5F5F5;
@@ -410,7 +410,7 @@ Loading
 }
 
 #pq-loading img {
-	height: 60px;
+	/*height: 60px;*/
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++
@@ -1783,9 +1783,9 @@ Section Title
 }
 
 .pq-section-title.pq-style-1 .pq-section-main-title {
-	font-weight: 700;
+	/*font-weight: 700;
 	font-size: 48px;
-	line-height: 56px;
+	line-height: 56px;*/
 	z-index: 9;
 	color: var(--dark-color);
 	padding: 0;
@@ -1796,7 +1796,7 @@ Section Title
 
 .pq-section-title.pq-style-1 .pq-section-description {
 	font-family: var(--body-fonts);
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	z-index: 9;
 	position: relative;
@@ -1832,7 +1832,27 @@ Breadcrumb
 }
 
 .pq-breadcrumb{
-	background-image: url(../images/breadcrumb/1.jpg)!important;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB7n_Z_QmmG_D1oY7RORI75VKk_NybhAq-Pw&s')!important;
+}
+
+.technology{
+	background-image: url('https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_600,h_187/https://www.bestrowaterpurifier.in/wp-content/uploads/2019/10/ion-exchange-water-softening.jpg')!important;
+}
+
+.certificate {
+	background-image: url('https://static.vecteezy.com/system/resources/previews/002/349/754/non_2x/modern-elegant-certificate-template-free-vector.jpg')!important;
+}
+
+.contact-banner {
+	background-image: url('https://shiningstarholidays.com/storage/2022/09/10/contact-us-1662798801.jpg')!important;
+}
+
+.blog-banner {
+	background-image: url('https://www.rugtek.com/wp-content/uploads/2022/03/blogbanner-1.jpg')!important;
+}
+
+.product-banner {
+	background-image: url('https://images.prismic.io/kasasmart/5c641c3ae2e27bb76a955e9809ef2efabdec995d_kp200-product-banner.jpg?auto=compress,format')!important;
 }
 
 .pq-breadcrumb:before {
@@ -1915,7 +1935,7 @@ Breadcrumb
 }
 
 .pq-breadcrumb-container .breadcrumb li.active {
-	color: var(--primary-color);
+	color: #1593ef;
 }
 
 .pq-breadcrumb-container .breadcrumb li a {
@@ -2024,7 +2044,7 @@ header#pq-header.pq-header-sticky {
 /*+++++++++ Header Top Bar +++++++++*/
 
 header#pq-header .pq-top-header {
-	background: var(--dark-color);
+	background: #1474bc;
 	padding: 0;
 	font-size: 14px;
 }
@@ -2138,7 +2158,7 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
 }
 
 header#pq-header .pq-bottom-header .navbar .navbar-brand img {
-	height: 60px;
+	height: 80px;
 }
 
 /*++++++ Header Navbar Bar +++++*/
@@ -2453,7 +2473,7 @@ header#pq-header .pq-top-header.top-style-2 .pq-header-social ul li:last-child a
 }
 
 header#pq-header .pq-top-header.top-style-2 .pq-header-contact ul li i {
-	color: var(--primary-color);
+	color: var(--white-color);
 }
 
 header#pq-header .pq-top-header.top-style-2 .pq-header-contact ul li+li {
@@ -2468,7 +2488,7 @@ header#pq-header .pq-top-header.top-style-2 .pq-header-social ul li:first-child 
 
 header#pq-header .pq-top-header.top-style-2 .pq-header-social ul li:first-child i {
 	margin-right: 8px;
-	color: var(--primary-color);
+	color: var(--white-color);
 }
 
 header#pq-header .pq-top-header.top-style-2 .pq-header-social ul li {
@@ -2481,7 +2501,7 @@ header#pq-header .pq-top-header.top-style-2 .pq-header-social ul li a {
 }
 
 header#pq-header .pq-top-header.top-style-2 .pq-header-social ul li a:hover {
-	color: var(--primary-color);
+	color: var(--dark-color);
 	background: transparent;
 }
 
@@ -2548,7 +2568,7 @@ header#pq-header.pq-header-style-1 .pq-bottom-header .navbar .navbar-brand {
 }
 
 header#pq-header.pq-header-style-1 .pq-bottom-header .navbar .navbar-brand img {
-	margin-left: 25%;
+	margin-left: 12%;
 }
 
 header#pq-header.pq-header-style-1 .pq-bottom-header {
@@ -5720,7 +5740,7 @@ Background Images
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/background-images/3.png);
+    /*background-image: url(../images/background-images/3.png);*/
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 50% auto;
@@ -5738,7 +5758,7 @@ Background Images
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/background-images/4.jpg);
+    background-image: url('https://mollisaqua.in/wp-content/uploads/2024/03/Water-softener-1.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5766,7 +5786,7 @@ Background Images
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/background-images/6.jpg);
+    background-image: url('https://niftindia.in/blog/images-b/blog/full/2.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
