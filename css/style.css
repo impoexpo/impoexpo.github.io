@@ -1852,7 +1852,7 @@ Breadcrumb
 }
 
 .product-banner {
-	background-image: url('https://images.prismic.io/kasasmart/5c641c3ae2e27bb76a955e9809ef2efabdec995d_kp200-product-banner.jpg?auto=compress,format')!important;
+	background-image: url('../images/product.jpg')!important;
 }
 
 .pq-breadcrumb:before {
