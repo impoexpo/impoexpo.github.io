@@ -67,7 +67,7 @@ Moz Selection
 
 
 :root {
-	--primary-color: #1474bc;
+	--primary-color: #00a0d1;
 	--dark-color: #272B36;
 	--secondary-color: #666666;
 	--grey-color: #F5F5F5;
@@ -2044,7 +2044,7 @@ header#pq-header.pq-header-sticky {
 /*+++++++++ Header Top Bar +++++++++*/
 
 header#pq-header .pq-top-header {
-	background: #1474bc;
+	background: #00a0d1;
 	padding: 0;
 	font-size: 14px;
 }
